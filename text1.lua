@@ -59,7 +59,7 @@ local function MakeDraggable(topbarobject, object)
 		changesizeobject.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		changesizeobject.BorderSizePixel = 0
 		changesizeobject.Position = UDim2.new(1, 20, 1, 20)
-		changesizeobject.Size = UDim2.new(0, 10, 0, 10)
+		changesizeobject.Size = UDim2.new(0, 150, 0, 250)
 		changesizeobject.Name = "changesizeobject"
 		changesizeobject.Parent = object
 
@@ -113,7 +113,7 @@ ClickFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ClickFrame.BackgroundTransparency = 0.9990000128746033
 ClickFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ClickFrame.BorderSizePixel = 0
-ClickFrame.Size = UDim2.new(0, 10, 0, 10)
+ClickFrame.Size = UDim2.new(0, 150, 0, 250)
 ClickFrame.ZIndex = 0
 ClickFrame.Name = "ClickFrame"
 ClickFrame.Parent = ClickGui
